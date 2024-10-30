@@ -1,0 +1,15 @@
+
+# curl -X POST http://localhost:9080/jwks-service/api/auth/login -H "Content-Type: application/json" -d '{"username": "john", "password": "secret123"}'
+POST http://balasubramanians-mac-mini-m1.local:8180/auth-service/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "user1",
+  "password": "password123"
+}
+
+###
+
+
+GET http://balasubramanians-mac-mini-m1.local:8180/auth-service/api/secured/admin
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJodHRwczovL2V4YW1wbGUuY29tL2lzc3VlciIsInVwbiI6ImFkbWluMSIsImdyb3VwcyI6WyJ1c2VyIiwiYWRtaW4iXSwic3ViIjoiYWRtaW4xIiwiYXVkIjoieW91ci1hdWRpZW5jZSIsImlhdCI6MTczMDI2MDczMCwiZXhwIjoxNzMwMjY0MzMwLCJqdGkiOiIyN2RjZDMzMy0zYzFhLTQ0OTYtODY4Ny1mZDA4NDBiYTA1YWIifQ.Vp24sNX_vq4hf8JM-kGm3yAvrGDpwHlOd_GhUeSrthJApOGPiHq-YaV-1__09FUN28DiwRGpFAK1cc6e4tPfoTPZ3fZimubH_XvVur6xYr4D1UjTsso3nCJGhUEHbviYwDuM7uZe0Bt0Ipa8zd3hGIS3Zh2Y2dRX9f5y9xWKKT6jK79obwYSo1rdKeh_VtiuC2ET39aeVGm72ztjkgmVe3Cv7fQ9-9AG2tcxhqhYoQ2cGt8i1gmlVT5arTqBwcK7Behbrq6tnaU9MuqJaoF32t94thUK5vM87lRGol5yjLolY0Ion4eCEOIxN-bJi0_qmD5Kw9ymF67tagtsA_cuLA
